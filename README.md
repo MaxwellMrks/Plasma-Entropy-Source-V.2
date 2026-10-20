@@ -1,5 +1,5 @@
 # Build Log 
-![CathodeDarkRegion](GSH2.JPG)
+![CathodeDarkRegion](GSH3.JPG)
 Day 1 10/15
 
 The main issue in the circuit topology of the Plasma Entropy Source V.1 was the anode; where 200Vdc , 10kvac and the decoupling capacitors all met. The 200Vdc took the path of less impedance and traveled through the 10kv strike line instead of through the tube. 
@@ -21,4 +21,4 @@ I started troubleshooting; I'd turn the strike voltage input down as much as I c
 I fed it 20v and the tube finally sustained. What a beautiful and satisfying feeling it was seeing the tube glow truly as intended for the first time.
 The GSH-1 sustains at 293Vdc, 87 mA. No less then 290vdc will the tube sustain. Although it's rated for 250v, I assume because it's from the 1970s, the pressure has changed or maybe even helium atoms have penetrated the glass envelope overtime. These factors causing the required voltage to rise. 
 A favorite feature of mine in the tube's emission is this little congregation of plasma on the cathode! It's what I believe is the cathode dark zone, either way super cool to see. 
-![CathodeDarkRegion](GSH3.JPG)
+![CathodeDarkRegion](GSH2.JPG)
