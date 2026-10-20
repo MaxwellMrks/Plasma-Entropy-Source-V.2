@@ -1,5 +1,5 @@
 # Build Log 
-
+![Glowball](GSH2.jpg)
 Day 1 10/15
 
 The main issue in the circuit topology of the Plasma Entropy Source V.1 was the anode; where 200Vdc , 10kvac and the decoupling capacitors all met. The 200Vdc took the path of less impedance and traveled through the 10kv strike line instead of through the tube. 
@@ -20,3 +20,5 @@ I decided to do some casual research and noticed an obvious flaw all of a sudden
 I started troubleshooting; I'd turn the strike voltage input down as much as I could from my lab supply until the ionization would go out, I started at 12vin and went down to 5v at which the RF 10kv strike voltage module would go out. I noticed, with the decreasing RF, I could more easily see the effects of the DC boost module. At this time, I had turned up the output voltage to 300Vdc, so the tube's emissions were especially bright. Because I was only feeding 5V to the RF 10kv module the ionization was mostly caused by the 300vdc yet still needed the 10kv strike on at all times to sustain. I noticed there was a strange oscillation happening - the tube was blinking very quickly, the same HZ at which an LED on the DC boost was flicker. From this data I deduced that the supply was starved for current, I was right - across the input I read 9V, it needed anywhere from 12-24v. 
 I fed it 20v and the tube finally sustained. What a beautiful and satisfying feeling it was seeing the tube glow truly as intended for the first time.
 The GSH-1 sustains at 293Vdc, 87 mA. No less then 290vdc will the tube sustain. Although it's rated for 250v, I assume because it's from the 1970s, the pressure has changed or maybe even helium atoms have penetrated the glass envelope overtime. These factors causing the required voltage to rise. 
+A favorite feature of mine in the tube's emission is this little congregation of plasma on the cathode! It's what I believe is the cathode dark zone, either way super cool to see. 
+![Glowball](GSH3.jpg)
