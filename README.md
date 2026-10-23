@@ -41,3 +41,7 @@ The GSH-1 sustains at 293Vdc, 87 mA. No less then 290vdc will the tube sustain. 
 A favorite feature of mine in the tube's emission is this little congregation of plasma on the cathode! It's what I believe is the cathode dark zone, either way super cool to see. 
 
 ![CathodeDarkRegion](GSH2.JPG)
+
+**Day 4 10/20** 
+
+With the tube finally sustaining I know had to see what the noise spectrum looked like, unfortunately all I have in terms of measurement methodology is a cheap handheld oscilloscope which doesn't even have a frequency analyzer, but it'll do for now. I connected to the anode of the tube and grounded the scope and notice a variety of electrical noise 10khz all the way up to 300khz. I assume this is from the HV boost converter, and I was reading switching noise. I designed an LC circuit at the output of the DC boost converter. It's a low pass filter, with a cut off frequency of 610hz. I put a 68uF 500v rated cap in series with a 100mH inductor, and read 3khz at the output, seeing the steady non changing frequency on the output was satisfying, although I need to mitigate the noise further. 
