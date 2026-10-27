@@ -56,6 +56,6 @@ I connected the bulb and fired up the converter, to my appeasement the wave form
 Unfortunately, I didn't account for how much current the converter was drawing, I was using rectifier diodes rated for 3A. The diode eventually exploded, quite violently. Half wave rectification was now destroyed, and a full amplitude sine wave of 20V most likely 26V peak was supplying the converter, two capacitors exploded even more violently than the diode and my discovery of potential neon plasma oscillations was now an after thought.
 
 **Day 6 10/26** 
-I forgot to mention, throughout me testing and building the power supply for this tube, I taught myself Kicad, and have been preparing to order my first schematic. I unfortunately have no one to peer review it, which is rather tragic because I'm assuming Rev.1 won't work. 
+I forgot to mention, throughout me testing and building the power supply for this tube, I taught myself Kicad, and have been preparing to order my first schematic. 
 ![PicofCAD](PCBpic.jpg)
 ![PicofCAD3d](PCBpic2.jpg)
