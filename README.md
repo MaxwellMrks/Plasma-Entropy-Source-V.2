@@ -1,5 +1,5 @@
 # Abstract
-The GSH-1 is a 1970s era hot cathode neon fill vacuum tube the soviets manufactured for radar calibration. This is the second and final iteration of this project, my goal is to measure and identify the electric noise spectrum, which is broadband in nature and produced by a combination of shot-noise, thermal, and gas ionization factors. 
+The GSH-1 is a 1970s era hot cathode neon fill vacuum tube the soviets manufactured for radar calibration. This is the second and final iteration of this project, my goal is to measure and identify the electric noise spectrum, which is broadband in nature and produced by a combination of shot-noise, thermal, and gas ionization factors. The intention is to try and identify the plasma striation frequency; how will it appear? In what frequency? Can we change the frequency?
 # Schematic 
 ![SchematicV.1](FullInstrumentSchematic.jpg)
 
