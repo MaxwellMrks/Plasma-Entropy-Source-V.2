@@ -1,7 +1,7 @@
 # Abstract
 The GSH-1 is a 1970s era hot cathode neon fill vacuum tube the soviets manufactured for radar calibration. This is the second and final iteration of this project, my goal is to measure and identify the electric noise spectrum, which is broadband in nature and produced by a combination of shot-noise, thermal, and gas ionization factors. 
 # Schematic 
-![SchematicV.1](start.jpg)
+![SchematicV.1](start(1).jpg)
 
 
 
