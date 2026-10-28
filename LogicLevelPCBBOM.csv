@@ -1,0 +1,25 @@
+Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Exclude from Simulation	Exclude from Position Files	Footprint	Datasheet
+C2,C6,C7	3	.1 uF					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	
+C3	1	1 uF					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm	
+C4	1	220uF					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:CP_Radial_D8.0mm_P3.50mm	
+C8,C11	2	1 uF					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:CP_Radial_D8.0mm_P3.80mm	
+C9	1	100 uF					${EXCLUDE_FROM_POS_FILES}	Capacitor_THT:CP_Radial_D8.0mm_P3.80mm	
+D1,D2,D3	3	FR207					${EXCLUDE_FROM_POS_FILES}	Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal	
+D5,D7	2	LED					${EXCLUDE_FROM_POS_FILES}	LED_THT:LED_D5.0mm	
+J1,J2	2	Screw_Terminal_01x02					${EXCLUDE_FROM_POS_FILES}	TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal	
+J4	1	Amphenol B6252HB-NPP3G-50					${EXCLUDE_FROM_POS_FILES}	Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal	
+J6,J7	2	Conn_SMA_JACK R/A 50ohm PCB ACX1232-ND					${EXCLUDE_FROM_POS_FILES}	Connector_Coaxial:SMA_Amphenol_132134_Vertical	
+NE1	1	Custom_HV_Octocoupler (NeonBulb+Photoresistor)					${EXCLUDE_FROM_POS_FILES}	CustomFootPrintsKiCad:Untitled	
+Q1,Q2	2	IRFZ44N					${EXCLUDE_FROM_POS_FILES}	Package_TO_SOT_THT:TO-220-3_Vertical	https://www.vishay.com/docs/91065/91065.pdf
+Q3	1	2N2222					${EXCLUDE_FROM_POS_FILES}	Package_TO_SOT_THT:TO-92_Inline	http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF
+R1,R15	2	330R					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+R3	1	10k					${EXCLUDE_FROM_POS_FILES}	Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal	
+R4,R17	2	100k					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+R5,R7,R10,R12,R13,R14,RF1	7	10k					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+R6	1	4.7k					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+R11	1	220k					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+R16	1	30k					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+RG1	1	100R					${EXCLUDE_FROM_POS_FILES}	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	
+U1	1	CD4043BDR					${EXCLUDE_FROM_POS_FILES}	Package_DIP:DIP-16_W7.62mm_Socket	https://www.ti.com/lit/gpn/cd4043b
+U3	1	NE5534					${EXCLUDE_FROM_POS_FILES}	Package_DIP:DIP-8_W7.62mm	http://www.ti.com/lit/ds/symlink/ne5534.pdf
+U4	1	LM393					${EXCLUDE_FROM_POS_FILES}	Package_DIP:DIP-8_W7.62mm	http://www.ti.com/lit/ds/symlink/lm393.pdf
