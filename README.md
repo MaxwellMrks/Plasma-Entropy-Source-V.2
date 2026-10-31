@@ -59,3 +59,4 @@ Unfortunately, I didn't account for how much current the converter was drawing, 
 I forgot to mention, throughout me testing and building the power supply for this tube, I taught myself Kicad, and have been preparing to order my first schematic. 
 ![PicofCAD](PCBpic.jpg)
 ![PicofCAD3d](PCBpic2.jpg)
+![PicofCAD](PCBPIC2.jpg)
