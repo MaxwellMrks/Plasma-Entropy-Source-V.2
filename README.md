@@ -1,5 +1,5 @@
 # Abstract
-The GSH-1 is a 1970s era hot cathode neon fill vacuum tube the soviets manufactured for radar calibration. This is the second and final iteration of this project, my goal is to measure and identify the electric noise spectrum, which is broadband in nature and produced by a combination of shot-noise, thermal, and gas ionization factors. The intention is to try and identify the plasma striation frequency; how will it appear? In what frequency? Can we change the frequency?
+The GSH-1 is a 1970s era hot cathode neon fill gas-discharge tube the soviets manufactured for radar calibration. This is the second and final iteration of this project, my goal is to measure and identify the electric noise spectrum, which is broadband in nature and produced by a combination of shot-noise, thermal, and gas ionization factors. The intention is to try and identify the plasma striation frequency; how will it appear? In what frequency? Can we change the frequency?
 # Schematic 
 ![SchematicOfFullInstrument](FullInstrumentSchematic.jpg)
 ![SchematicOfLogicLevelPCB](GSH1LogicLevelPCB.jpg)
@@ -17,13 +17,13 @@ The GSH-1 is a 1970s era hot cathode neon fill vacuum tube the soviets manufactu
 **Day 1 10/15**
 
 The main issue in the circuit topology of the Plasma Entropy Source V.1 was the anode; where 200Vdc , 10kvac and the decoupling capacitors all met. The 200Vdc took the path of less impedance and traveled through the 10kv strike line instead of through the tube. 
-To combat this issue, I decided to redesign the power supply essentially. Instead of these three components meeting at one node, I removed the 10kv strike voltage and opted for ionization by induction instead. 
+To combat this issue, I decided to redesign the power supply essentially. Instead of these three components meeting at one node, I removed the 10kv strike voltage and opted for preliminary ionization through an external coil (capacitive coupling). 
 I put the tube inside of an aluminum spring and connected one end of the 10kv supply output to it. 
 I got the positive column fully extended but the tube won't sustain on solely DC yet. 
 
 **Day 2 10/17**
 
-I started working on the power supply. It's imperative to this project I minimize electrical noise, so I'm avoiding switching power supply's and am instead using a transformer I found in an old radio receiver. I need two or three 12Vdc and one 6vdc. In order to filter mains ripples out, I put one 7500uf or 8500uf capacitor per output of halfwave rectifier. As predicted the ripples are 120hz post rectification. For whatever reason I noticed some higher frequency noise as well on my oscilloscope , the VPP in the mV so noise of relatively low amplitude. I added linear regulators (L78012) and .1uF and 100uF on the ouput , now the noise is no more.
+I started working on the power supply. It's imperative to this project I minimize electrical noise, so I'm avoiding switching power supply's and am instead using a transformer I found in an old radio receiver. I need two or three 12Vdc and one 6vdc. In order to filter mains ripples out, I put one 7500uf or 8500uf capacitor per output of halfwave rectifier. As predicted the ripples are 60hz post rectification. For whatever reason I noticed some higher frequency noise as well on my oscilloscope , the VPP in the mV so noise of relatively low amplitude. I added linear regulators (L7812) and .1uF and 100uF on the ouput , now the noise is no more.
 
 ![PSU](FATCAPs.jpeg)
 
@@ -31,7 +31,7 @@ I started working on the power supply. It's imperative to this project I minimiz
 
 I finally got the GSH-1 tube to sustain on DC! 
 This how the day went; at first, I couldn't figure out exactly why it wasn't working and why I was only getting 3 V across my 1k ballast (that's 3mA). For whatever reason there was practically no current passing through the tube. When I turned up the RF 10kv module, the DC passing through increased exponentially, I figured this was because of charge carriers being added to the mix and the plasma becoming more excited therefore becoming more conductive. It was still far lower than I needed, however. 
-I decided to do some casual research and noticed an obvious flaw all of a sudden. On the cathode side, I didn't tie one of the filament electrodes to the same ground plane as the 0v coming from the DC boost module. They had to be tied in order for the electrons to properly flow from the cathode. I tied the two pins together; however, the tube still wouldn't sustain. At this point I knew I was missing something because this was defying logic. The only thing I noticed was that now across my 1kv ballast I was reading 7mA! A serious increase from 3mA.
+I decided to do some casual research and noticed an obvious flaw all of a sudden. On the cathode side, I didn't tie one of the filament electrodes to the same ground plane as the 0v coming from the DC boost module. They had to be tied in order for the electrons to properly flow from the cathode. I tied the two pins together; however, the tube still wouldn't sustain. At this point I knew I was missing something because this was defying logic. The only thing I noticed was that now across my 1k ohm ballast I was reading 7mA! A serious increase from 3mA.
 
 ![Buildind_the_driver](GSH5.jpeg)
 
@@ -56,6 +56,6 @@ I connected the bulb and fired up the converter, to my appeasement the wave form
 Unfortunately, I didn't account for how much current the converter was drawing, I was using rectifier diodes rated for 3A. The diode eventually exploded, quite violently. Half wave rectification was now destroyed, and a full amplitude sine wave of 20V most likely 26V peak was supplying the converter, two capacitors exploded even more violently than the diode and my discovery of potential neon plasma oscillations was now an after thought.
 
 **Day 6 10/26** 
-I forgot to mention, throughout me testing and building the power supply for this tube, I taught myself Kicad, and have been preparing to order my first schematic. 
+I forgot to mention, throughout me testing and building the power supply for this tube, I taught myself Kicad, and have been preparing to order my first PCB.
 ![PicofCAD3d](PCBpic2.jpg)
 ![PicofCAD](PCBPIC2.jpg)
