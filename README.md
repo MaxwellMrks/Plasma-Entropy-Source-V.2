@@ -59,3 +59,22 @@ Unfortunately, I didn't account for how much current the converter was drawing, 
 I forgot to mention, throughout me testing and building the power supply for this tube, I taught myself Kicad, and have been preparing to order my first PCB.
 ![PicofCAD3d](PCBpic2.jpg)
 ![PicofCAD](PCBPIC2.jpg)
+
+**Day 7 10/28**
+
+Whilst awaiting for my PCB to be delivered I had to be certain of what this 3khz wave form was, I started to collect some data, studying how the amplitude and dimensionality of the wave form changed with current and voltage. I want it to be plasma striations, but I cannot make a baseless claim without evidence.  
+I cranked the sustain voltage up and down, measuring the voltage across the resistor and calculating the current draw from that
+V/R (V across R) = I 
+Here is my first small dataset. 
+| Supply (V) | Current (mA) | Tube voltage (V)* | Oscillation frequency (kHz) | Amplitude (Vp-p) |
+|-----------:|-------------:|------------------:|----------------------------:|-----------------:|
+| 272 | 67  | 205 | 4.20 | 4.20 |
+| 285 | 85  | 200 | 2.89 | 7.30 |
+| 290 | 96  | 194 | 2.88 | 8.00 |
+| 295 | 109 | 186 | 3.02 | 9.00 |
+
+*Tube voltage = supply − (current × 1 kΩ ballast). Measured at the anode with a handheld scope (AC-coupled)*
+There is a distinct correlation between current draw, amplitude, and frequency of the oscillation. 
+Interestingly enough I noticed that as the current and voltage rises, the HZ the tube is oscillating stays more stable, very stable at exactly 3.02 KHZ. At lower voltage and current the frequency is less stable, rising and falling by 1khz. 
+![Striationpic](StriationsPic2.jpg)
+![Striationpic2](Striations2_.jpg)
