@@ -77,5 +77,7 @@ Here is my first small dataset.
 
 *Tube voltage = supply − (current × 1 kΩ ballast). Measured at the anode with a handheld scope (AC-coupled)*
 There is a distinct correlation between current draw, amplitude, and frequency of the oscillation. 
-Interestingly enough I noticed that as the current and voltage rises, the HZ the tube is oscillating stays more stable, very stable at exactly 3.02 KHZ. At lower voltage and current the frequency is less stable, rising and falling by 1khz. I also noticed the tube flicker off once due to being current starved, and I saw the wave form drop to 0hz.
+Interestingly enough I noticed that as the current and voltage rises, the HZ the tube is oscillating stays more stable, very stable at exactly 3.02 KHZ. At lower voltage and current the frequency is less stable, rising and falling by 1khz. I also noticed the tube flicker off once due to being current starved, and I saw the wave form drop to 0hz. I need to collect more data. 
 ![Striationpic2](Striations2.jpg)
+Simultaneously to this I also finished the power supply, adding terminals for easy installation and 3D printed top and bottom pieces to hold the capacitors for easy consolidation and transportation. 
+![PSUfinal](PSUfinal.jpg)
