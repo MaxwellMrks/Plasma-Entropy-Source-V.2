@@ -81,3 +81,7 @@ Interestingly enough I noticed that as the current and voltage rises, the HZ the
 ![Striationpic2](Striations2.jpg)
 Simultaneously to this I also finished the power supply, adding terminals for easy installation and 3D printed top and bottom pieces to hold the capacitors for easy consolidation and transportation. 
 ![PSUfinal](PSUfinal.jpg)
+
+**Day 8 11/8** 
+
+Got my PCB in the mail - Haven't tested the op amp stage but the power supply control works well. 
