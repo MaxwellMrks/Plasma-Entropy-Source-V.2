@@ -95,6 +95,6 @@ We started out by setting up the antenna close to the tube as possible, plugging
 We saw FM radio stations and environmental noise typical of an urban environment. We turned the tube on and off, switching from low ends all the way up to 2Ghz. We couldn't see anything, which was disappointing however I wondered whether the noise amplitude was just too low for the antenna to pick up. I wrapped a wire around the tube, settling for inductively picking up the noise being emitted from the tube. I had hoped the proximity of our makeshift inductive coil would allow us to detect the noise if it was indeed there, just low in amplitude. 
 It actually worked, we were able to see the GSH-1 is inherently noisy in nature, even via inductive coupling! 
 We first looked at the high ends and didn't see much until we spotted a lot of noise 60mhz and below, witness the tube off, vs on below. 
-![60mhzTubeOff](100mhz(1).jpeg)
-![100mhzTubeOn](1000mhz.jpeg)
+![60mhzTubeOff](100mhz.jpeg)
+![100mhzTubeOn](1000mhz(1).jpeg)
 ![100mhzTubeOn](60mhz.jpeg)
