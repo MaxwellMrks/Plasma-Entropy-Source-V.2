@@ -87,9 +87,14 @@ Simultaneously to this I also finished the power supply, adding terminals for ea
 Got my PCB in the mail - Haven't tested the op amp stage but the power supply control works well. 
 
 **Day 9 11/9**
-Really fun day today, Dr. Helio Takai and I took a look at the noise spectrum in the tube, and the near and far fields. We used a bipodal antenna and witnessed predominantly 0-50khz noise. More data for sure needs to be taken, however as so far, the tube is noisy in nature, not quite as broadband as the soviets advertised, however it's ok because they didn't have frequency analyzers in the 1970s.
+Really fun day today, Dr. Helio Takai and I took a look at the noise spectrum in the tube, and the near and far fields as well. We used a bipodal antenna and witnessed predominantly 0-50khz noise. More data for sure needs to be taken, however as so far, the tube is noisy in nature, not quite as broadband as the soviets advertised, however it's ok because they didn't have frequency analyzers in the 1970s - so we forgive their falsehoods. 
 ![BipodalAntenna](Antenna.jpeg)
 
 Our methodology went as follows:
 We started out by setting up the antenna close to the tube as possible, plugging the antenna into the oscilloscope and observing the frequency analyzer. 
-We saw FM radio stations and environmental noise typical of an urban environment. We turned the tube on and off, switching from low ends all the way up to 2Ghz.
+We saw FM radio stations and environmental noise typical of an urban environment. We turned the tube on and off, switching from low ends all the way up to 2Ghz. We couldn't see anything, which was disappointing however I wondered whether the noise amplitude was just too low for the antenna to pick up. I wrapped a wire around the tube, settling for inductively picking up the noise being emitted from the tube. I had hoped the proximity of our makeshift inductive coil would allow us to detect the noise if it was indeed there, just low in amplitude. 
+It actually worked, we were able to see the GSH-1 is inherently noisy in nature, even via inductive coupling! 
+We first looked at the high ends and didn't see much until we spotted a lot of noise 60mhz and below, witness the tube off, vs on below. 
+![60mhzTubeOff](100mhz(1).jpeg)
+![100mhzTubeOn](1000mhz.jpeg)
+![100mhzTubeOn](60mhz.jpeg)
