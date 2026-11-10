@@ -87,5 +87,9 @@ Simultaneously to this I also finished the power supply, adding terminals for ea
 Got my PCB in the mail - Haven't tested the op amp stage but the power supply control works well. 
 
 **Day 9 11/9**
-Really fun day today, Dr. Helio Takai and I took a look at the noise spectrum in the tube, and the near and far fields. We used a bipodal antenna and witnessed predominantly 0-50khz noise. More data for sure needs to be taken, however as so far, the tube is noisy in nature, not quite as broadband as the soviets advertised, however it's ok because they didn't have frequency analyzers in the 1970s. 
+Really fun day today, Dr. Helio Takai and I took a look at the noise spectrum in the tube, and the near and far fields. We used a bipodal antenna and witnessed predominantly 0-50khz noise. More data for sure needs to be taken, however as so far, the tube is noisy in nature, not quite as broadband as the soviets advertised, however it's ok because they didn't have frequency analyzers in the 1970s.
+![BipodalAntenna](Antenna.jpeg)
+
 Our methodology went as follows:
+We started out by setting up the antenna close to the tube as possible, plugging the antenna into the oscilloscope and observing the frequency analyzer. 
+We saw FM radio stations and environmental noise typical of an urban environment. We turned the tube on and off, switching from low ends all the way up to 2Ghz.
